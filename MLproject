@@ -1,0 +1,7 @@
+name: wine_project_github
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python wine_elastic_net.py"
